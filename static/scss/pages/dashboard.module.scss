@@ -1,0 +1,16 @@
+@use '../partials/variables.scss' as v;
+
+.layout_content {
+    padding-inline: 20px;
+    .list_card {
+        margin: 0 20px;
+    }
+
+    
+    .title_box {
+        font-size: 1.2rem;
+        color: v.$gray;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,13 @@
+@use '../partials/variables.scss' as v;
+
+.contact {
+    margin-top: 1rem;
+
+    button {
+        padding: 4px 18px !important;
+    }
+
+    .title {
+        margin-top: 1rem;
+    }
+}

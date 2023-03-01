@@ -1,0 +1,28 @@
+@use '../partials/variables.scss' as v;
+
+.pitch_card {
+    .card_content {
+        text-align: left;
+        padding: 10px 15px;
+
+        .name {
+            h5 {
+                font-size: 1.28rem;
+            }
+        }
+
+        .price {
+            p {
+                font-size: 1.1rem;
+            }
+
+            span {
+                color: v.$light-green;
+            }
+        }
+    }
+
+    a:hover {
+        color: v.$white;
+    }
+}

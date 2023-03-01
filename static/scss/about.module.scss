@@ -1,0 +1,16 @@
+@use './partials/variables.scss' as v;
+
+.about {
+    // border-top: 1px solid v.$gray;
+    margin: 2rem 0;
+
+    @media all and (max-width: 768px) {
+        margin-top: 15px;
+
+    }
+
+    .title {
+        color: v.$light-green;
+        font-weight: medium;
+    }
+}

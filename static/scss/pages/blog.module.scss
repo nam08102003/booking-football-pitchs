@@ -1,0 +1,41 @@
+@use '../partials/variables.scss' as v;
+.body_page {
+    margin-top: 50px;
+
+    @media all and (max-width: 760px) {
+        margin-top: 10px;
+    }
+
+    .content_main {
+        a {
+            color: #212529
+        }
+
+    }
+
+    .dots_page {
+        margin-top: 16px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        ul {
+            max-width: 200px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            li {
+                margin: 0 5px;
+                padding: 3px 12px;
+                border: 1px solid v.$dark-green;
+                cursor: pointer;
+                color: v.$dark-green;
+                font-size: 1.2rem;
+                font-family: sans-serif;
+
+            }
+        }
+    }
+
+    
+}
